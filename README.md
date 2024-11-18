@@ -1,16 +1,14 @@
-## Hi there 👋
+#  Hey there! 👋
 
-<!--
-**syafiyft/syafiyft** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
+Hi, I'm Syafiy!
+- 🌱 I’m currently learning: Flutter development and blockchain technology.
+- 🎮 I enjoy: Gaming, creating YouTube content, and exploring wildlife apps.
+- ✨ Fun fact: I love watching anime in my downtime!
 
-Here are some ideas to get you started:
+## My Goals
+- Build an engaging wildlife discovery app.
+- Learn more about integrating blockchain into apps.
+- Improve my skills in UI/UX design.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Thanks for visiting my profile! 😊
