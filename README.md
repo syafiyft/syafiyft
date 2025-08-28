@@ -35,17 +35,9 @@ Hi, I'm Syafiy!
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=syafiy&show_icons=true&hide_border=true&theme=dark" alt="GitHub Stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=syafiy&layout=compact&hide_border=true&theme=dark" alt="Top Languages" />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" />
 </p>
 
-<!-- Optional: Activity graph (uncomment if you want it)
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=syafiy&theme=react-dark&hide_border=true" alt="Activity Graph" />
-</p>
--->
 
 ---
 
