@@ -1,8 +1,18 @@
 name: GitHub Metrics
+
 on:
-  schedule: [{ cron: "0 */12 * * *" }]   # update every 12 hours
-  workflow_dispatch:                     # allow manual runs
-  push: { branches: ["main", "master"] } # optional
+  schedule:
+    - cron: '0 */12 * * *'   # every 12h
+  workflow_dispatch:          # run manually from Actions tab
+
+# Avoid multiple runs stepping on each other
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
+# Let the workflow write to the repo (for GITHUB_TOKEN)
+permissions:
+  contents: write
 
 jobs:
   metrics:
@@ -11,19 +21,24 @@ jobs:
       - name: Generate profile metrics
         uses: lowlighter/metrics@latest
         with:
+          # Your PAT (repo + read:user) so private work is counted
           token: ${{ secrets.METRICS_TOKEN }}
+
+          # Output config
+          filename: github-metrics.svg
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update metrics"
+          # Use your PAT to make the commit too (bypasses branch/write restrictions)
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+
+          # Profile
           user: syafiy
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kuala_Lumpur
 
-          # Write result to repo so README can render it
-          filename: github-metrics.svg
-          output_action: commit
-          committer_branch: main
-          committer_message: "chore: update ${filename}"
-
-          # Nice, lightweight plugins
+          # Plugins (lightweight & useful)
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_limit: 8
