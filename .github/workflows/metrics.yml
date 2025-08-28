@@ -33,7 +33,7 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
 
           # Profile
-          user: syafiy
+          user: syafiyft
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kuala_Lumpur
