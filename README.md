@@ -93,26 +93,26 @@ Wildlife discovery platform. Awarded FYP2 Best Project.
 
 ---
 
-## Play a Game
-
-<div align="center">
-
-### 🎮 Flappy Bird
-
-[Play Flappy Bird](https://syafiyft.github.io/syafiyft/docs/games/flappy-bird.html)
-
-Press SPACE or click to jump!
-
-</div>
-
----
-
 ## What I'm Learning
 
 - Cloud architecture patterns and AWS services
 - Smart contract security and DeFi mechanics
 - Distributed consensus algorithms
 - Enterprise mobile architecture at scale
+
+---
+
+## Play a Game
+
+<div align="center">
+
+### 🎮 Flappy Bird
+
+[Play Flappy Bird Game](https://syafiyft.github.io/syafiyft/docs/games/flappy-bird.html)
+
+Press SPACE or click to jump!
+
+</div>
 
 ---
 
