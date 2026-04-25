@@ -10,7 +10,7 @@
 
 ## About Me
 
-I build mobile apps and explore Web3. Currently preparing for AWS Certified Solutions Architect (Associate) while diving into blockchain, NFTs, and DeFi protocols.
+I build mobile apps (sometimes web) and explore Web3. Currently preparing for AWS Certified Solutions Architect (Associate) while diving into blockchain, NFTs, and DeFi protocols.
 
 - Mobile development (Flutter & React Native)
 - Web3 architecture and smart contracts
