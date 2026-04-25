@@ -99,11 +99,9 @@ Wildlife discovery platform. Awarded FYP2 Best Project.
 
 ### 🎮 Flappy Bird
 
-Click below to play — Press SPACE or click to jump!
+[Play Flappy Bird](https://syafiyft.github.io/syafiyft/docs/games/flappy-bird.html)
 
-[Play Flappy Bird Game](https://syafiyft.github.io/docs/games/flappy-bird.html)
-
-Or try the **2048 Game** [here](https://syafiyft.github.io/2048-game/)
+Press SPACE or click to jump!
 
 </div>
 
