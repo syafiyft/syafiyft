@@ -1,7 +1,9 @@
 # <div align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Jetbrains+Mono&size=45&duration=3000&color=6366F1&center=true&vCenter=true&width=500&lines=Hey+I'm+Syafiy;Mobile+Dev+Web3+Builder;Blockchain+Explorer" alt="Typing SVG"/> </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=syafiyft&color=6366F1&style=flat-square" alt="Profile Views"/>
+  
+  [![Visitors](https://komarev.com/ghpvc/?username=syafiyft&color=6366F1&style=plastic)](https://github.com/syafiyft)
+  
 </div>
 
 ---
@@ -91,6 +93,22 @@ Wildlife discovery platform. Awarded FYP2 Best Project.
 
 ---
 
+## Play a Game
+
+<div align="center">
+
+### 🎮 Flappy Bird
+
+Click below to play — Press SPACE or click to jump!
+
+[Play Flappy Bird Game](https://syafiyft.github.io/flappy-bird-game/)
+
+Or try the **2048 Game** [here](https://syafiyft.github.io/2048-game/)
+
+</div>
+
+---
+
 ## What I'm Learning
 
 - Cloud architecture patterns and AWS services
@@ -111,61 +129,3 @@ Wildlife discovery platform. Awarded FYP2 Best Project.
 Made with intent and strong ☕
 
 </div>
-
-<!-- Snake Game - Interactive Element -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/syafiyft/syafiyft/blob/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/syafiyft/syafiyft/blob/output/github-contribution-grid-snake.svg">
-  <img alt="github-snake" src="https://github.com/syafiyft/syafiyft/blob/output/github-contribution-grid-snake.svg">
-</picture>
-
----
-
-## Setup Instructions
-
-To use this README with the snake game animation:
-
-1. Replace this content in your `syafiyft/syafiyft` repository README.md
-2. Create `.github/workflows/snake.yml` with this content:
-
-```yaml
-name: generate animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: generate snake svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github-user-name: syafiyft
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: push snake svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-3. Push the changes. The snake will auto-generate and update based on your contributions.
-
----
-
-**Customization:**
-
-- Change `6366F1` (indigo) in typing SVG to your preferred color (hex code)
-- Update LinkedIn, Portfolio, and Email links
-- Replace `syafiyft` with your username in the snake game and stats URLs
-- Typing messages: Edit the `lines=` parameter in the typing SVG URL
