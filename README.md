@@ -26,7 +26,10 @@ I build mobile apps (sometimes web) and explore Web3. Currently preparing for AW
 
 **Blockchain & DeFi** — Exploring tokenomics, smart contract patterns, and DeFi protocol design. How do we build financial systems that actually work?
 
-**Mobile at Scale** — Enterprise mobile apps with offline-first sync, clean architecture, and real-time data.
+**Mobile at Scale** — Enterprise mobile apps using React Native. 
+
+**Ruby** - Just feel like learning cuz it looks fun. I want to expand my knowledge on Backend as well.
+
 
 ---
 
