@@ -24,7 +24,7 @@ I build mobile apps (sometimes web) and explore Web3. Currently preparing for AW
 
 **AWS SAA Preparation** — Understanding cloud architecture, infrastructure design, and AWS services at scale.
 
-**Blockchain & DeFi** — Exploring tokenomics, smart contract patterns, and DeFi protocol design. How do we build financial systems that actually work?
+**Blockchain & DeFi** — Keeping up to date with latest news (barely). My timeline were full of AI LLM models recently. 
 
 **Mobile at Scale** — Enterprise mobile apps using React Native. 
 
