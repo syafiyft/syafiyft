@@ -100,8 +100,7 @@ Wildlife discovery platform. Awarded FYP2 Best Project.
 
 - Cloud architecture patterns and AWS services
 - Smart contract security and DeFi mechanics
-- Distributed consensus algorithms
-- Enterprise mobile architecture at scale
+- Backend development
 
 ---
 
@@ -109,7 +108,7 @@ Wildlife discovery platform. Awarded FYP2 Best Project.
 
 <div align="center">
 
-[LinkedIn](https://linkedin.com/in/syafiyft) | [Portfolio](https://github.com/syafiyft/syafiys-portfolio) | Email: [add your email]
+[LinkedIn](https://linkedin.com/in/syafiyft) | [Portfolio](https://github.com/syafiyft/syafiys-portfolio) | Email: [syafiyft@gmail.com]
 
 ---
 
